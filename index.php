@@ -35,6 +35,7 @@ $goods = mysqli_fetch_all($goods);
         <td><?php echo $item[2] ?></td>
         <td><?php echo $item[3] ?></td>
         <td><a href="update.php?id=<?php echo $item[0] ?>">Обновить</a></td>
+        <td><a href="vendor/delete.php?id=<?php echo $item[0] ?>">Удалить</a></td>
       </tr>
     <?php
     }
