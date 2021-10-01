@@ -1,2 +1,2 @@
 # crud_learning
-MySQL $ PHP. CRUD.
+MySQL & PHP. CRUD.
